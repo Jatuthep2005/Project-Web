@@ -1,5 +1,5 @@
-         <p>
-             &copy; <?= date('Y') ?>. All rights reserved by Aj.M.
+<p>
+             &copy; <?= date('Y') ?>. Project by Active Zone. All rights reserved.
          </p>
          </footer>
          </body>
