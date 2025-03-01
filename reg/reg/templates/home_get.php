@@ -7,6 +7,19 @@
     <title>Home</title>
     
     <style>
+        body { 
+            background-image: url('img/3.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin-top: 200px;
+        }
+
         .container_home {
             max-width: 1200px;
             width: 100%;
@@ -91,8 +104,14 @@
 </head>
 
 <body>
-    <br>
-    <h1>Wellcome to Active Zone</h1>
+    
+    <img src="img/logo.png" alt="" style="width: 25%; height: auto;">
+    <h1 style="color: white;">Wellcome to Active Zone</h1>
+    <p style="color: white; font-size: 1.2em; text-align: center; width: 80%; margin: 10px auto;">
+        ActiveZone is the platform that meets all your needs.<br>
+        Easily create events and discover amazing activities <br>
+        at your fingertips!
+    </p>
     <div class="container_home mt-5">
         <div id="cardCarousel" class="carousel slide">
             <div class="carousel-inner">
@@ -101,7 +120,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Card 1">
+                                <img src="img/2.png" class="card-img-top" alt="Card 1">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">การ์ดที่ 1</h5>
                                     <p class="card-text">รายละเอียดของการ์ดนี้...</p>
@@ -111,7 +130,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Card 2">
+                                <img src="img/2.png" class="card-img-top" alt="Card 2">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">การ์ดที่ 2</h5>
                                     <p class="card-text">รายละเอียดของการ์ดนี้...</p>
@@ -121,7 +140,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Card 3">
+                                <img src="img/2.png" class="card-img-top" alt="Card 3">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">การ์ดที่ 3</h5>
                                     <p class="card-text">รายละเอียดของการ์ดนี้...</p>
@@ -137,7 +156,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Card 4">
+                                <img src="img/2.png" class="card-img-top" alt="Card 4">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">การ์ดที่ 4</h5>
                                     <p class="card-text">รายละเอียดของการ์ดนี้...</p>
@@ -147,7 +166,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="##" class="card-img-top" alt="Card 5">
+                                <img src="img/2.png" class="card-img-top" alt="Card 5">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">การ์ดที่ 5</h5>
                                     <p class="card-text">รายละเอียดของการ์ดนี้...</p>
@@ -157,7 +176,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                            <img src="images/3.png" class="card-img-top" alt="Card 6">
+                            <img src="img/3.png" class="card-img-top" alt="Card 6">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">การ์ดที่ 6</h5>
                                     <p class="card-text">รายละเอียดของการ์ดนี้...</p>
